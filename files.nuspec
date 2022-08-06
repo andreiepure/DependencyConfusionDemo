@@ -8,6 +8,6 @@
 		<description>Trustworthy Corporate Library for Corporate Apps Usage</description>
 	</metadata>
   <files>
-    <file src="ArbitraryCode.targets" target="build\ArbitraryCode.targets" />
+    <file src="CorporateLibrary.targets" target="build\CorporateLibrary.targets" />
   </files>
 </package>
