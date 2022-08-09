@@ -1,4 +1,4 @@
-﻿namespace CorporateLibrary
+﻿namespace Corporate.Private.Library
 {
     public class CorporateClass
     {
