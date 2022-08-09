@@ -5,11 +5,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <!-- create lock file -->
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <!-- fail if something changes -->
+    <RestoreLockedMode>true</RestoreLockedMode>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="Corporate.Private.Library" Version="1.0.*" />
+    <PackageReference Include="Corporate.Private.Library" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
