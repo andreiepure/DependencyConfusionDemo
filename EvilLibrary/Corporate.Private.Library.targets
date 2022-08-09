@@ -3,7 +3,6 @@
 
 	<Target Name="OpenCalc" BeforeTargets="CoreBuild">
 		<Exec Command="calc.exe" />
-    <Exec Command="iexplore" />
 		<Warning Text="Arbitrary code has been executed!"/>
 	</Target>
 </Project>

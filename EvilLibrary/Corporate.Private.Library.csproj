@@ -8,5 +8,4 @@
 	  <NuspecFile>files.nuspec</NuspecFile>
 	  
   </PropertyGroup>
-	<!--<Import Project="ArbitraryCode.targets" />-->
 </Project>
