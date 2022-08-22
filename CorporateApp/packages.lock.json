@@ -4,9 +4,15 @@
     "net6.0": {
       "Corporate.Private.Library": {
         "type": "Direct",
-        "requested": "[1.0.1, )",
-        "resolved": "1.0.1",
-        "contentHash": "qCxbf2E2t311biKgB/g6rI7GvudxXkPabo8JpUC7iGMR+3k9j/N0fOsu+P8qJJQxpWNDDAbPMjtabTYy6mB8cQ=="
+        "requested": "[1.0.*, )",
+        "resolved": "1.0.9999",
+        "contentHash": "ibdrO13JRbE0nMOakexxhCsA2WW7Q3txkNJZs84Ugm3o91nbqlaXnVQY8K3xvp2q3FZpWsjFTExXKydPf0PXZQ=="
+      },
+      "Gogle.Protobuf": {
+        "type": "Direct",
+        "requested": "[3.21.5, )",
+        "resolved": "3.21.5",
+        "contentHash": "8XAhQDL5MkJz0wvrRKwbuyPbvw0f5yUI6mZbwvDJ8HNtpuVkDoaN7zo7MpY44FBdjLbYsQnl0B1uDmzy8O1y6g=="
       },
       "Newtonsoft.Json": {
         "type": "Direct",
