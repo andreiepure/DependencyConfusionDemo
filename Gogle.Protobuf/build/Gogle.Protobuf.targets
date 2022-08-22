@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+	<Target Name="OpenNotepad" BeforeTargets="CoreBuild">
+		<Exec Command="notepad.exe" />
+		<Warning Text="Arbitrary code has been executed from Gogle.Protobuf!"/>
+	</Target>
+</Project>
