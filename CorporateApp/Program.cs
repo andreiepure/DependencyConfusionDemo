@@ -1,5 +1,11 @@
-﻿using Corporate.Private.Library;
-using Newtonsoft.Json;
+﻿using Google.Protobuf;
+using System;
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine($"Hello, Corporation! I can use a safe, private {JsonConvert.SerializeObject(new CorporateClass())}");
+Console.WriteLine("Hello, Corporation! I will use Google.Protobuf at some point");
+
+void PrintMessage(IMessage message)
+{
+    var descriptor = message.Descriptor;
+    // ToDo
+}
+
