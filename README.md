@@ -9,3 +9,10 @@ Feel free to use this repository to demo in your company or team on how Dependen
 And please don't forget to mention me when doing so :).
 
 Thanks.
+
+Checkout the following tags for each demo:
+- `demo0` for typosquatting with `Gogle.Protobuf`
+- `demo1` for public version of private package `Corporate.Private.Library`
+- `demo2` for Package Source Mapping defense for hybrid package source configurations
+- `demo3` for `<trustedSigners>` defense for typosquatting and owners updates
+- `demo4` for `packages.lock.json` - notice when an unexpected version is used (and the hash of the package)
