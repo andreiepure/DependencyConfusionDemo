@@ -1,6 +1,8 @@
 # Dependency Confusion Demo
 
-Repository for https://www.meetup.com/dotnetiasi/events/287271942/
+Repository containg the demos I've used in the the following talks:
+- [DotNet Iasi meetup](https://www.meetup.com/dotnetiasi/events/287271942/) on the 10th of August 2022
+- .NET Day Switzerland on the 30th of August 2022
 
 Beware of the [Evil_Hacker](https://www.nuget.org/packages/Corporate.Private.Library/1.0.9999)!
 
