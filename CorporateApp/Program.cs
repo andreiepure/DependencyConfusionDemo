@@ -1,11 +1,5 @@
-﻿using Google.Protobuf;
-using System;
+﻿using System;
+using Corporate.Private.Library;
+using Newtonsoft.Json;
 
-Console.WriteLine("Hello, Corporation! I will use Google.Protobuf at some point");
-
-void PrintMessage(IMessage message)
-{
-    var descriptor = message.Descriptor;
-    // ToDo
-}
-
+Console.WriteLine($"{JsonConvert.SerializeObject(new CorporateClass())}");
