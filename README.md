@@ -16,3 +16,10 @@ Checkout the following tags for each demo:
 - `demo2` for Package Source Mapping defense for hybrid package source configurations
 - `demo3` for `<trustedSigners>` defense for typosquatting and owners updates
 - `demo4` for `packages.lock.json` - notice when an unexpected version is used (and the hash of the package)
+
+You can find how to defenct your NuGet supply chain against dependency confusion on my blog: https://andreiepure.ro/2022/08/28/dotnetday-resources.html
+
+TL;DR:
+1. Use Package Source Mapping
+1. Use `<trusted signers>`
+1. Reserve prefixes for both your public and private packages on nuget.org
