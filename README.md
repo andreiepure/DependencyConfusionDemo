@@ -19,7 +19,7 @@ Checkout the following tags for each demo:
 - `demo3` for `<trustedSigners>` defense for typosquatting and owners updates
 - `demo4` for `packages.lock.json` - notice when an unexpected version is used (and the hash of the package)
 
-You can find how to defenct your NuGet supply chain against dependency confusion on my blog: https://andreiepure.ro/2022/08/28/dotnetday-resources.html
+You can find how to defend your NuGet supply chain against dependency confusion on my blog: https://andreiepure.ro/2022/08/28/dotnetday-resources.html
 
 TL;DR:
 1. Use Package Source Mapping
