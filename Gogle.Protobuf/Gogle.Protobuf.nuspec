@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Gogle.Protobuf</id>
-    <version>3.21.5</version>
+    <version>3.21.4</version>
     <authors>Evil_Hacker</authors>
     <license type="expression">BSD-3-Clause</license>
     <licenseUrl>https://licenses.nuget.org/BSD-3-Clause</licenseUrl>
