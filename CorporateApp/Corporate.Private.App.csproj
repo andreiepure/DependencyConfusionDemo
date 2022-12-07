@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Gogle.Protobuf" Version="3.21.4" />
+    <PackageReference Include="Gogle.Protobuf" Version="3.21.10" />
   </ItemGroup>
 
 </Project>
