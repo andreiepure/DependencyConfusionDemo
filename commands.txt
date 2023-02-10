@@ -1,0 +1,66 @@
+Commands for the demos
+
+subst z: C:\demo\DependencyConfusionDemo
+cd z:\CorporateApp
+
+NuGet.exe verify -signatures .\cake.0.27.2.nupkg
+
+BEFORE EACH:
+nuget locals all -clear
+git checkout demo0
+
+DEMO 0
+- dotnet restore -verbosity:n CorporateApp.sln 
+- dotnet build CorporateApp.sln 
+
+DEMO 1
+
+dotnet restore -verbosity:n CorporateApp.sln 
+dotnet build .\CorporateApp.sln
+
+___
+
+IF OFFLINE, just copy 
+    <add key="NuGet.org" value="../offline/nuget.org" />
+instead of the public URL.
+
+___
+
+<Project>
+	<Target Name="HelloTarget" AfterTargets="CoreBuild">
+		<Warning Text="Hello, World! This is a task."/> 
+	</Target>
+</Project>
+
+dotnet msbuild hello.txt --verbosity:quiet
+
+___
+
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<UsingTask
+	  TaskName="OpenRemoteImage"
+	  TaskFactory="RoslynCodeTaskFactory"
+	  AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+		<ParameterGroup />
+		<Task>
+			<Using Namespace="System.Diagnostics"/>
+			<Code Type="Fragment" Language="cs">
+<![CDATA[
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.FileName = "https://raw.githubusercontent.com/andreiepure/andreiepure.github.io/master/assets/Evil_Hacker.jpg";
+            startInfo.UseShellExecute = true;
+            Process process = new Process();
+            process.StartInfo = startInfo;
+            process.Start();
+]]>
+			</Code>
+		</Task>
+	</UsingTask>
+	<Target Name="ExecuteArbitraryCode" AfterTargets="CoreBuild">
+		<Warning Text="Arbitrary code executed from this task."/>
+		<OpenRemoteImage/>
+	</Target>
+</Project>
+
+dotnet msbuild foo.target
