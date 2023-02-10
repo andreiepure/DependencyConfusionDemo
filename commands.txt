@@ -3,7 +3,7 @@ Commands for the demos
 subst z: C:\demo\DependencyConfusionDemo
 cd z:\CorporateApp
 
-NuGet.exe verify -signatures .\cake.0.27.2.nupkg
+NuGet.exe verify -signatures Z:\offline\nuget.org\newtonsoft.json.6.0.8.nupkg
 
 BEFORE EACH:
 nuget locals all -clear
