@@ -1,9 +1,9 @@
 Commands for the demos
 
-subst z: C:\demo\DependencyConfusionDemo
-cd z:\CorporateApp
+subst x: C:\demo\DependencyConfusionDemo
+cd x:\CorporateApp
 
-NuGet.exe verify -signatures Z:\offline\nuget.org\newtonsoft.json.6.0.8.nupkg
+NuGet.exe verify -signatures x:\offline\nuget.org\newtonsoft.json.6.0.8.nupkg
 
 BEFORE EACH:
 nuget locals all -clear
@@ -21,7 +21,7 @@ dotnet build .\CorporateApp.sln
 ___
 
 IF OFFLINE, just copy 
-    <add key="NuGet.org" value="../offline/nuget.org" />
+    <add key="NuGet.org" value="X:/offline/nuget.org" />
 instead of the public URL.
 
 ___
