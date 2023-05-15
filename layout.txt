@@ -1,0 +1,30 @@
+Desktops
+
+Demo0
+- VS with Corporate.Private.App.Typo
+-- Nuget.config; csproj; program.cs
+- CMD with PS X:\CorporateApp\Corporate.Private.App.Typo
+
+Demo1
+- Firefox with https://int.nugettest.org/ and https://int.nugettest.org/packages/Corporate.Private.Library
+- CMD with PS X:\CorporateApp\Corporate.Private.App.HybridConfig>
+- VS with Corporate.Private.App.HybridConfig
+-- Nuget; csproj; program
+
+Demo2
+- same as demo1
+- notepad++ with C:\demo\demo2\NuGetGallery_NuGet.config
+- also use demo2.txt in VS
+
+Demo3
+- same as demo0
+- also open C:\workspace\sonar-scanner-msbuild\NuGet.Config in VS
+- also use demo3.txt in VS
+
+Demo4
+- Explorer with X:\demo4
+- chrome with https://www.nuget.org/packages/SonarAnalyzer.CSharp/
+https://www.nuget.org/packages/Gogle.Protobuf/3.21.4
+
+Presentation
+- the PPTX
