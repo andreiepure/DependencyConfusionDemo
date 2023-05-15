@@ -2,13 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>Corporate.Private.Library</id>
-		<version>1.0.777</version>
+		<version>1.0.999</version>
 		<authors>MyCorporation</authors>
 		<license type="expression">MIT</license>
 		<description>Evil Hacker hacked again!</description>
 	</metadata>
   <files>
     <file src="Corporate.Private.Library.targets" target="build" />
-    <file src="bin\Debug\netstandard2.0\Corporate.Private.Library.dll" target="lib\netstandard2.0" />
   </files>
 </package>
