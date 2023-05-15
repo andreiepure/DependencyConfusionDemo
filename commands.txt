@@ -7,7 +7,19 @@ NuGet.exe verify -signatures x:\offline\nuget.org\newtonsoft.json.6.0.8.nupkg
 
 BEFORE EACH:
 nuget locals all -clear
-git checkout demo0
+
+dotnet restore -verbosity:n .\Corporate.Private.App.HybridConfig.csproj
+dotnet restore -verbosity:n .\Corporate.Private.App.HybridConfig.csproj | select-string Installed
+
+dotnet build -verbosity:n .\Corporate.Private.App.HybridConfig.csproj
+
+__
+
+IF OFFLINE, just copy 
+    <add key="NuGet.org" value="X:/offline/nuget.org" />
+instead of the public URL.
+
+__
 
 Check in %AppData%\NuGet\NuGet.Config
 
@@ -15,18 +27,3 @@ Check in %AppData%\NuGet\NuGet.Config
         <certificate fingerprint="CF6CE6768EF858A3A667BE1AF8AA524D386C7F59A34542713F5DFB0D79ACF3DD" hashAlgorithm="SHA256" allowUntrustedRoot="false" />
 		<certificate fingerprint="BA5A630994B2B8F562B307A2A3245998232EF0A94EE80BECE5CEA0B5CECA61F9" hashAlgorithm="SHA256" allowUntrustedRoot="false" />
     </repository>
-
-DEMO 0
-- dotnet restore -verbosity:n CorporateApp.sln 
-- dotnet build CorporateApp.sln 
-
-DEMO 1
-
-dotnet restore -verbosity:n CorporateApp.sln 
-dotnet build .\CorporateApp.sln
-
-___
-
-IF OFFLINE, just copy 
-    <add key="NuGet.org" value="X:/offline/nuget.org" />
-instead of the public URL.
