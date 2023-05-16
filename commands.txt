@@ -3,7 +3,7 @@ Commands for the demos
 subst x: C:\demo\DependencyConfusionDemo
 cd x:\CorporateApp
 
-NuGet.exe verify -signatures x:\offline\nuget.org\newtonsoft.json.6.0.8.nupkg
+NuGet.exe verify -signatures X:\demo4\sonaranalyzer.csharp.8.44.0.52574.nupkg
 
 BEFORE EACH:
 nuget locals all -clear
