@@ -11,6 +11,7 @@
     <clear />
     <repository name="int.nuget.org" serviceIndex="https://apiint.nugettest.org/v3/index.json">
       <certificate fingerprint="CF6CE6768EF858A3A667BE1AF8AA524D386C7F59A34542713F5DFB0D79ACF3DD" hashAlgorithm="SHA256" allowUntrustedRoot="false" />
+      <certificate fingerprint="BA5A630994B2B8F562B307A2A3245998232EF0A94EE80BECE5CEA0B5CECA61F9" hashAlgorithm="SHA256" allowUntrustedRoot="false" />
       <owners>jamesnk;protobuf-packages</owners>
     </repository>
     <author name="James Newton-King">
