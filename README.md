@@ -13,7 +13,7 @@ And please don't forget to mention me when doing so :).
 
 Thanks.
 
-You can find how to defend your NuGet supply chain against dependency confusion on my blog: [.NET Day Switzerland resources](https://andreiepure.ro/2022/08/28/dotnetday-resources.html).
+You can find how to defend your NuGet supply chain against dependency confusion on [my blog](https://andreiepure.ro/2022/08/28/dotnetday-resources.html).
 
 TL;DR the minimum:
 1. (consumer) Use Package Source Mapping
