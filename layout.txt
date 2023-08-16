@@ -13,7 +13,7 @@ Demo1
 
 Demo2
 - same as demo1
-- notepad++ with C:\demo\demo2\NuGetGallery_NuGet.config
+- notepad++ with C:\conferences\dep-conf-demo\demo2\NuGetGallery_NuGet.config 
 - also use demo2.txt in VS
 
 Demo3
