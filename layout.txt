@@ -60,6 +60,6 @@ ________________
 Demo4
 ________________
 
-- Explorer with X:\demo4
+- Explorer with X:\demo4, or open the two nuget packages from there already
 - chrome with https://www.nuget.org/packages/SonarAnalyzer.CSharp/
 https://www.nuget.org/packages/Gogle.Protobuf/3.21.4
