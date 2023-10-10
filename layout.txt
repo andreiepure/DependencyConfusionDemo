@@ -18,7 +18,7 @@ SETUP
 - CMD with PS X:\CorporateApp\Corporate.Private.App.Typo
 --> zoom in
 
-- also open C:\workspace\sonar-scanner-msbuild\NuGet.Config in VS
+- VS Code with demo3 folder
 - also use demo3.txt in VS
 
 Demo 0
@@ -63,3 +63,4 @@ ________________
 - Explorer with X:\demo4, or open the two nuget packages from there already
 - chrome with https://www.nuget.org/packages/SonarAnalyzer.CSharp/
 https://www.nuget.org/packages/Gogle.Protobuf/3.21.4
+- cmd to  NuGet.exe verify -signatures X:\demo4\sonaranalyzer.csharp.8.44.0.52574.nupkg
