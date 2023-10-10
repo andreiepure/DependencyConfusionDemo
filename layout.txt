@@ -1,13 +1,38 @@
 Desktops
 
-Demo0
+________________
+Slides
+________________
+
+- the PPTX
+
+________________
+Demo 0, 3
+________________
+
+SETUP
+- browser with https://int.nugettest.org/packages?q=gogle.protobuf
 - VS with Corporate.Private.App.Typo
 -- Nuget.config; csproj; program.cs
 --> zoom in
 - CMD with PS X:\CorporateApp\Corporate.Private.App.Typo
 --> zoom in
 
-Demo1
+- also open C:\workspace\sonar-scanner-msbuild\NuGet.Config in VS
+- also use demo3.txt in VS
+
+Demo 0
+
+First: I will show you the CorporateApp.Typo project.
+Second: dotnet restore in cmd
+Third: run the build in VS
+Fourth: show the target file
+
+________________
+Demo 1, 2
+________________
+
+SETUP
 - Chrome with https://int.nugettest.org/ and https://int.nugettest.org/packages/Corporate.Private.Library
 - CMD with PS X:\CorporateApp\Corporate.Private.App.HybridConfig>
 --> zoom in
@@ -15,24 +40,26 @@ Demo1
 -- Nuget.config; csproj; program
 --> zoom in
 
-Demo2
-- same as demo1
-- notepad++ with C:\conferences\dep-conf-demo\demo2\NuGetGallery_NuGet.config 
+- VS Code with C:\conferences\dep-conf-demo\demo2\NuGetGallery_NuGet.config
+
+Demo 1
+First: I will show you the CorporateApp.HybridConfig project.
+Second: dotnet restore in cmd, show it comes from local cache
+Third: change to *
+Fourth: dotnet restore, show it comes from server
+Fifth: run the build, show target file, explain it can be made to not fail the build
+
+Demo 2
+
 - run "packagesourcemapper generate nuget.config" to show what it generates
 - also use demo2.txt in VS
 
 dotnet tool install --global NuGet.PackageSourceMapper --version 1.0.415202
 
-
-Demo3
-- same as demo0
-- also open C:\workspace\sonar-scanner-msbuild\NuGet.Config in VS
-- also use demo3.txt in VS
-
+________________
 Demo4
+________________
+
 - Explorer with X:\demo4
 - chrome with https://www.nuget.org/packages/SonarAnalyzer.CSharp/
 https://www.nuget.org/packages/Gogle.Protobuf/3.21.4
-
-Presentation
-- the PPTX
