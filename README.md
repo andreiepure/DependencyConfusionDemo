@@ -6,6 +6,8 @@ Repository containg the demos I've used in the the following talks:
 - VisugXL Belgium on the 28th of October 2022
 - .NET User Group Geneva on the 8th of December 2022
 - Techorama Belgium on the 17th of May 2023 ([slides](slides/EPURE_Techorama_2023.pdf))
+- Techorama Netherlands on the 10th Oct 2023
+- WeAreDevelopers Berlin on the 18th of July 2024
 
 Feel free to use this repository to demo in your company or team on how Dependency Confusion works.
 
