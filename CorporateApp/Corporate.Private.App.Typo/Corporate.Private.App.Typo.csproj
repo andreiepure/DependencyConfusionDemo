@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Gogle.Protobuf" Version="3.21.10" />
+    <!-- ToDo introduce typo -->
+    <PackageReference Include="Google.Protobuf" Version="3.21.10" />
   </ItemGroup>
 
 </Project>
