@@ -1,0 +1,8 @@
+subst X: C:\conferences\dep-conf-demo\DependencyConfusionDemo
+cd X:\CorporateApp\Corporate.Private.App.HybridConfig\
+
+nuget locals all -clear
+
+dotnet restore -verbosity:n .\Corporate.Private.App.HybridConfig.csproj | select-string installed
+
+

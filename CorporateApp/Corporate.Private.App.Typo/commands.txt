@@ -1,0 +1,8 @@
+subst X: C:\conferences\dep-conf-demo\DependencyConfusionDemo
+cd X:\CorporateApp\Corporate.Private.App.Typo\
+
+// add typoe in CSPROJ, and after:
+
+nuget locals all -clear
+dotnet restore -verbosity:n Corporate.Private.App.Typo.sln
+dotnet restore -verbosity:n Corporate.Private.App.Typo.sln | select-string Installed
